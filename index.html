@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>博学谷</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/src/less/index.css">
+</head>
+<body ng-app="app">
+    <main ng-view></main>
+    <!-- 第三方包  -->
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/node_modules/angular-route/angular-route.js"></script>
+    <!-- 主模块，里面定义了app模块关联视图 -->
+    <script src="/src/js/main.js"></script>
+    <!-- 辅模块，各种组件 -->
+    <script src="/src/components/common/aside/aside.js"></script>
+    <script src="/src/components/common/header/header.js"></script>
+    <script src="/src/components/index/index.js"></script>
+    <script src="/src/components/login/login.js"></script>
+    <script src="/src/components/profile/profile.js"></script>
+    <script src="/src/components/repass/repass.js"></script>
+        <!-- 讲师管理组件 -->
+    <script src="/src/components/teacher/index.js"></script>
+    <script src="/src/components/teacher/add/add.js"></script>
+    <script src="/src/components/teacher/edit/edit.js"></script>
+    <script src="/src/components/teacher/list/list.js"></script>
+        <!-- 课程分类管理组件 -->
+    <script src="/src/components/category/index.js"></script>
+    <script src="/src/components/category/add/add.js"></script>
+    <script src="/src/components/category/edit/edit.js"></script>
+    <script src="/src/components/category/list/list.js"></script>
+        <!-- 课程管理组件 -->
+    <script src="/src/components/course/index.js"></script>
+    <script src="/src/components/course/add/add.js"></script>
+    <script src="/src/components/course/edit1/edit1.js"></script>
+    <script src="/src/components/course/edit2/edit2.js"></script>
+    <script src="/src/components/course/edit3/edit3.js"></script>
+    <script src="/src/components/course/list/list.js"></script>
+    <!-- 辅模块，各种常量配置 -->
+    <script src="/src/js/constant/web_api.js"></script>
+    <script src="/src/js/constant/default_avatar.js"></script>
+    <!-- 辅模块，各种公共业务逻辑 -->
+    <script src="/src/js/service/http.js"></script>
+    <script src="/src/js/service/api.js"></script>
+</body>
+</html>
